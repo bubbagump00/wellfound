@@ -11,9 +11,11 @@
   <script src="build/ableplayer.min.js"></script>
 </head>
 <body>
-  <audio id="audio1" data-able-player preload="auto">
-    <source type="audio/mpeg" src="AlCampbell20190809.mp3"/>
-    <!--<source type="audio/ogg" src="../smallf.ogg"/>-->
-  </audio>
+<!-- use the following markup for each media element -->
+<audio id="audio1" width="480" class="ump-media" preload="auto" data-able-player data-lyrics-mode data-transcript-title="Test">
+  <source type="audio/mpeg" src="AlCampbell20190809.mp3"/>
+  <!--<source type="audio/ogg" src="../media/paulallen.ogg"/>-->
+  <track kind="captions" src="AlCampbell20190809.vtt" srclang="en" label="English"/>
+</audio>
 </body>
 </html>
