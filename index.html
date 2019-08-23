@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P3SDK Basic Example</title>
+<style type="text/css">
+
+.p3sdk-interactive-transcript-content{
+    width: 500px;
+    height: 220px;
+    overflow-y: auto;
+}
+</style>
+
+<script src="http://p3.3playmedia.com/p3sdk.1.10.6.js"></script>
+
+</head>
+<body>
+  
+<div class="p3sdk-container p3sdk-debug" player_id="yt-player1" player_type="youtube">
+
+       <script type="text/javascript" src="http://www.youtube.com/iframe_api"></script>
+  
+<iframe id="yt-player1" width="560" height="315" src="https://www.youtube.com/embed/Cp7-Sa27p0E?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+<div class="p3sdk-interactive-transcript" file_id="Cp7-Sa27p0E" use_video_id="1" project_id=“999”>
+    <div class=“p3sdk-interactive-transcript-content”></div>
+</div>
+
+</div>
+</body>
+</html>
